@@ -21,7 +21,7 @@ pipeline {
             steps {
                 dir('server') {
                     script {
-                        dockerImageServer = docker.build("${server1}")
+                        dockerImageServer = docker.build("${IMAGE_NAME_SERVER}")
                     }
                 }
             }
@@ -30,7 +30,7 @@ pipeline {
             steps {
                 dir('client') {
                     script {
-                        dockerImageClient = docker.build("${client1}")
+                        dockerImageClient = docker.build("${IMAGE_NAME_CLIENT}")
                     }
                 }
             }
