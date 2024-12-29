@@ -13,7 +13,7 @@ pipeline {
             steps {
                 git branch: 'main',
                     url: 'git@github.com:Ihebbac/devops_mern_app.git',
-                    credentialsId: 'docker'
+                    credentialsId: 'GitHub_SSH'
             }
         }
 
