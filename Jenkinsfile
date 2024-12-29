@@ -4,7 +4,7 @@ pipeline {
         pollSCM('H/5 * * * *')
     }
     environment {
-        DOCKERHUB_CREDENTIALS = credentials('dockerhub')
+        DOCKERHUB_CREDENTIALS = credentials('docker')
         IMAGE_NAME_SERVER = 'ihebbac/mern-app-main-server'
         IMAGE_NAME_CLIENT = 'ihebbac/mern-app-main-client'
     }
