@@ -54,3 +54,5 @@ Docker Compose est utilisé pour gérer les différents services de l'applicatio
 
 5. Accédez au client à [http://localhost:3000](http://localhost:3000).
 
+![alt text](screencapture-localhost-8080-job-MERN-Pipeline1-25-flowGraphTable-2024-12-30-13_34_51.png)
+![alt text](screencapture-localhost-8080-job-MERN-Pipeline1-25-console-2024-12-30-13_35_15.png) ![alt text](<Capture d'écran 2024-12-29 213534.png>) ![alt text](<Capture d'écran 2024-12-30 133437.png>) ![alt text](screencapture-aws-amazon-fr-getting-started-hands-on-launch-a-virtual-machine-2024-12-16-17_27_32.png)
